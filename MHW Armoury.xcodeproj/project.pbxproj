@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51DD4DE24D2530E001A30A9 /* LongSwordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4DD24D2530E001A30A9 /* LongSwordViewController.swift */; };
+		B51DD4E024D25704001A30A9 /* SwordShieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4DF24D25704001A30A9 /* SwordShieldViewController.swift */; };
+		B51DD4E224D25780001A30A9 /* DualBladesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4E124D25780001A30A9 /* DualBladesViewController.swift */; };
+		B51DD4E424D257A0001A30A9 /* HammerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4E324D257A0001A30A9 /* HammerViewController.swift */; };
+		B51DD4E624D257C3001A30A9 /* HuntingHornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4E524D257C3001A30A9 /* HuntingHornViewController.swift */; };
+		B51DD4E824D257EB001A30A9 /* LanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4E724D257EB001A30A9 /* LanceViewController.swift */; };
+		B51DD4EA24D2582D001A30A9 /* GunlanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4E924D2582D001A30A9 /* GunlanceViewController.swift */; };
+		B51DD4EC24D25863001A30A9 /* SwitchAxeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4EB24D25863001A30A9 /* SwitchAxeViewController.swift */; };
+		B51DD4EE24D25897001A30A9 /* ChargeBladeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4ED24D25897001A30A9 /* ChargeBladeViewController.swift */; };
+		B51DD4F024D258AA001A30A9 /* InsectGlaiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4EF24D258AA001A30A9 /* InsectGlaiveViewController.swift */; };
+		B51DD4F224D258BF001A30A9 /* LightBowgunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4F124D258BF001A30A9 /* LightBowgunViewController.swift */; };
+		B51DD4F424D258DF001A30A9 /* HeavyBowgunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4F324D258DF001A30A9 /* HeavyBowgunViewController.swift */; };
+		B51DD4F624D258E8001A30A9 /* BowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DD4F524D258E8001A30A9 /* BowViewController.swift */; };
+		B524454924CB9BEE00CA610B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524454824CB9BEE00CA610B /* AppDelegate.swift */; };
+		B524454B24CB9BEE00CA610B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524454A24CB9BEE00CA610B /* SceneDelegate.swift */; };
+		B524454D24CB9BEE00CA610B /* GreatSwordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524454C24CB9BEE00CA610B /* GreatSwordViewController.swift */; };
+		B524455024CB9BEE00CA610B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B524454E24CB9BEE00CA610B /* Main.storyboard */; };
+		B524455224CB9BEE00CA610B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B524455124CB9BEE00CA610B /* Assets.xcassets */; };
+		B524455524CB9BEE00CA610B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B524455324CB9BEE00CA610B /* LaunchScreen.storyboard */; };
+		B524455F24CBA87700CA610B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524455E24CBA87700CA610B /* DetailViewController.swift */; };
+		B535B75424CF8CC000D06CD2 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535B75324CF8CC000D06CD2 /* CellTableViewCell.swift */; };
+		B5AC8C4524D36BA60013377D /* LargeMonsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC8C4424D36BA60013377D /* LargeMonsterViewController.swift */; };
+		B5AC8C4724D36F5A0013377D /* LargeMonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC8C4624D36F5A0013377D /* LargeMonsterDetailViewController.swift */; };
+		B5F1CEEC24DB5560006B6D01 /* SmallMonsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1CEEB24DB5560006B6D01 /* SmallMonsterViewController.swift */; };
+		B5F1CEEE24DB5820006B6D01 /* SmallMonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1CEED24DB5820006B6D01 /* SmallMonsterDetailViewController.swift */; };
+		B5F7F0B524E0799B00DB17C7 /* LowArmorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F0B424E0799B00DB17C7 /* LowArmorViewController.swift */; };
+		B5F7F0B724E07A1F00DB17C7 /* ArmorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F0B624E07A1F00DB17C7 /* ArmorDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B51DD4DD24D2530E001A30A9 /* LongSwordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongSwordViewController.swift; sourceTree = "<group>"; };
+		B51DD4DF24D25704001A30A9 /* SwordShieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwordShieldViewController.swift; sourceTree = "<group>"; };
+		B51DD4E124D25780001A30A9 /* DualBladesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualBladesViewController.swift; sourceTree = "<group>"; };
+		B51DD4E324D257A0001A30A9 /* HammerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammerViewController.swift; sourceTree = "<group>"; };
+		B51DD4E524D257C3001A30A9 /* HuntingHornViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntingHornViewController.swift; sourceTree = "<group>"; };
+		B51DD4E724D257EB001A30A9 /* LanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanceViewController.swift; sourceTree = "<group>"; };
+		B51DD4E924D2582D001A30A9 /* GunlanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunlanceViewController.swift; sourceTree = "<group>"; };
+		B51DD4EB24D25863001A30A9 /* SwitchAxeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAxeViewController.swift; sourceTree = "<group>"; };
+		B51DD4ED24D25897001A30A9 /* ChargeBladeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeBladeViewController.swift; sourceTree = "<group>"; };
+		B51DD4EF24D258AA001A30A9 /* InsectGlaiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectGlaiveViewController.swift; sourceTree = "<group>"; };
+		B51DD4F124D258BF001A30A9 /* LightBowgunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBowgunViewController.swift; sourceTree = "<group>"; };
+		B51DD4F324D258DF001A30A9 /* HeavyBowgunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyBowgunViewController.swift; sourceTree = "<group>"; };
+		B51DD4F524D258E8001A30A9 /* BowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowViewController.swift; sourceTree = "<group>"; };
+		B524454524CB9BEE00CA610B /* MHW Armoury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MHW Armoury.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B524454824CB9BEE00CA610B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B524454A24CB9BEE00CA610B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B524454C24CB9BEE00CA610B /* GreatSwordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatSwordViewController.swift; sourceTree = "<group>"; };
+		B524454F24CB9BEE00CA610B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B524455124CB9BEE00CA610B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B524455424CB9BEE00CA610B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B524455624CB9BEE00CA610B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B524455E24CBA87700CA610B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B535B75324CF8CC000D06CD2 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		B5AC8C4424D36BA60013377D /* LargeMonsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeMonsterViewController.swift; sourceTree = "<group>"; };
+		B5AC8C4624D36F5A0013377D /* LargeMonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeMonsterDetailViewController.swift; sourceTree = "<group>"; };
+		B5F1CEEB24DB5560006B6D01 /* SmallMonsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallMonsterViewController.swift; sourceTree = "<group>"; };
+		B5F1CEED24DB5820006B6D01 /* SmallMonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallMonsterDetailViewController.swift; sourceTree = "<group>"; };
+		B5F7F0B424E0799B00DB17C7 /* LowArmorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowArmorViewController.swift; sourceTree = "<group>"; };
+		B5F7F0B624E07A1F00DB17C7 /* ArmorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B524454224CB9BEE00CA610B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B524453C24CB9BEE00CA610B = {
+			isa = PBXGroup;
+			children = (
+				B524454724CB9BEE00CA610B /* MHW Armoury */,
+			);
+			sourceTree = "<group>";
+		};
+		B524454624CB9BEE00CA610B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B524454524CB9BEE00CA610B /* MHW Armoury.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B524454724CB9BEE00CA610B /* MHW Armoury */ = {
+			isa = PBXGroup;
+			children = (
+				B524454824CB9BEE00CA610B /* AppDelegate.swift */,
+				B524454A24CB9BEE00CA610B /* SceneDelegate.swift */,
+				B535B75324CF8CC000D06CD2 /* CellTableViewCell.swift */,
+				B524455E24CBA87700CA610B /* DetailViewController.swift */,
+				B524454C24CB9BEE00CA610B /* GreatSwordViewController.swift */,
+				B51DD4DD24D2530E001A30A9 /* LongSwordViewController.swift */,
+				B51DD4DF24D25704001A30A9 /* SwordShieldViewController.swift */,
+				B51DD4E124D25780001A30A9 /* DualBladesViewController.swift */,
+				B51DD4E324D257A0001A30A9 /* HammerViewController.swift */,
+				B51DD4E524D257C3001A30A9 /* HuntingHornViewController.swift */,
+				B51DD4E724D257EB001A30A9 /* LanceViewController.swift */,
+				B51DD4E924D2582D001A30A9 /* GunlanceViewController.swift */,
+				B51DD4EB24D25863001A30A9 /* SwitchAxeViewController.swift */,
+				B51DD4ED24D25897001A30A9 /* ChargeBladeViewController.swift */,
+				B51DD4EF24D258AA001A30A9 /* InsectGlaiveViewController.swift */,
+				B51DD4F124D258BF001A30A9 /* LightBowgunViewController.swift */,
+				B51DD4F324D258DF001A30A9 /* HeavyBowgunViewController.swift */,
+				B51DD4F524D258E8001A30A9 /* BowViewController.swift */,
+				B5F7F0B624E07A1F00DB17C7 /* ArmorDetailViewController.swift */,
+				B5F7F0B424E0799B00DB17C7 /* LowArmorViewController.swift */,
+				B5AC8C4624D36F5A0013377D /* LargeMonsterDetailViewController.swift */,
+				B5AC8C4424D36BA60013377D /* LargeMonsterViewController.swift */,
+				B5F1CEED24DB5820006B6D01 /* SmallMonsterDetailViewController.swift */,
+				B5F1CEEB24DB5560006B6D01 /* SmallMonsterViewController.swift */,
+				B524454E24CB9BEE00CA610B /* Main.storyboard */,
+				B524455124CB9BEE00CA610B /* Assets.xcassets */,
+				B524455324CB9BEE00CA610B /* LaunchScreen.storyboard */,
+				B524455624CB9BEE00CA610B /* Info.plist */,
+				B524454624CB9BEE00CA610B /* Products */,
+			);
+			path = "MHW Armoury";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B524454424CB9BEE00CA610B /* MHW Armoury */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B524455924CB9BEE00CA610B /* Build configuration list for PBXNativeTarget "MHW Armoury" */;
+			buildPhases = (
+				B524454124CB9BEE00CA610B /* Sources */,
+				B524454224CB9BEE00CA610B /* Frameworks */,
+				B524454324CB9BEE00CA610B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MHW Armoury";
+			productName = "MHW Armoury";
+			productReference = B524454524CB9BEE00CA610B /* MHW Armoury.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B524453D24CB9BEE00CA610B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jonathan Bins";
+				TargetAttributes = {
+					B524454424CB9BEE00CA610B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = B524454024CB9BEE00CA610B /* Build configuration list for PBXProject "MHW Armoury" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B524453C24CB9BEE00CA610B;
+			productRefGroup = B524454624CB9BEE00CA610B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B524454424CB9BEE00CA610B /* MHW Armoury */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B524454324CB9BEE00CA610B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B524455524CB9BEE00CA610B /* LaunchScreen.storyboard in Resources */,
+				B524455224CB9BEE00CA610B /* Assets.xcassets in Resources */,
+				B524455024CB9BEE00CA610B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B524454124CB9BEE00CA610B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51DD4F024D258AA001A30A9 /* InsectGlaiveViewController.swift in Sources */,
+				B51DD4E824D257EB001A30A9 /* LanceViewController.swift in Sources */,
+				B5AC8C4724D36F5A0013377D /* LargeMonsterDetailViewController.swift in Sources */,
+				B51DD4DE24D2530E001A30A9 /* LongSwordViewController.swift in Sources */,
+				B51DD4F224D258BF001A30A9 /* LightBowgunViewController.swift in Sources */,
+				B5F1CEEC24DB5560006B6D01 /* SmallMonsterViewController.swift in Sources */,
+				B51DD4E224D25780001A30A9 /* DualBladesViewController.swift in Sources */,
+				B51DD4EA24D2582D001A30A9 /* GunlanceViewController.swift in Sources */,
+				B535B75424CF8CC000D06CD2 /* CellTableViewCell.swift in Sources */,
+				B51DD4E624D257C3001A30A9 /* HuntingHornViewController.swift in Sources */,
+				B51DD4F424D258DF001A30A9 /* HeavyBowgunViewController.swift in Sources */,
+				B51DD4E424D257A0001A30A9 /* HammerViewController.swift in Sources */,
+				B5F1CEEE24DB5820006B6D01 /* SmallMonsterDetailViewController.swift in Sources */,
+				B51DD4EE24D25897001A30A9 /* ChargeBladeViewController.swift in Sources */,
+				B51DD4F624D258E8001A30A9 /* BowViewController.swift in Sources */,
+				B51DD4EC24D25863001A30A9 /* SwitchAxeViewController.swift in Sources */,
+				B5F7F0B524E0799B00DB17C7 /* LowArmorViewController.swift in Sources */,
+				B51DD4E024D25704001A30A9 /* SwordShieldViewController.swift in Sources */,
+				B524454D24CB9BEE00CA610B /* GreatSwordViewController.swift in Sources */,
+				B524455F24CBA87700CA610B /* DetailViewController.swift in Sources */,
+				B524454924CB9BEE00CA610B /* AppDelegate.swift in Sources */,
+				B5F7F0B724E07A1F00DB17C7 /* ArmorDetailViewController.swift in Sources */,
+				B5AC8C4524D36BA60013377D /* LargeMonsterViewController.swift in Sources */,
+				B524454B24CB9BEE00CA610B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B524454E24CB9BEE00CA610B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B524454F24CB9BEE00CA610B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B524455324CB9BEE00CA610B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B524455424CB9BEE00CA610B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B524455724CB9BEE00CA610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B524455824CB9BEE00CA610B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B524455A24CB9BEE00CA610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77ZF4574V7;
+				INFOPLIST_FILE = "MHW Armoury/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathanbins.MHW-Armoury";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B524455B24CB9BEE00CA610B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77ZF4574V7;
+				INFOPLIST_FILE = "MHW Armoury/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathanbins.MHW-Armoury";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B524454024CB9BEE00CA610B /* Build configuration list for PBXProject "MHW Armoury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B524455724CB9BEE00CA610B /* Debug */,
+				B524455824CB9BEE00CA610B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B524455924CB9BEE00CA610B /* Build configuration list for PBXNativeTarget "MHW Armoury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B524455A24CB9BEE00CA610B /* Debug */,
+				B524455B24CB9BEE00CA610B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B524453D24CB9BEE00CA610B /* Project object */;
+}
